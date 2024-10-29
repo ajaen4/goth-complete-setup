@@ -12,9 +12,9 @@ A modern, fully configured starter template for building fast, type-safe web app
 
 - **📜 Type-Safe Templates**: Using [Templ](https://templ.guide) for compile-time checked templates
 - **🔥 Hot Reload**: Using [Air](https://github.com/cosmtrek/air) for instant feedback during development
-- **🎨 HTMX + Tailwind**: Modern, interactive UIs without complex client-side JavaScript
-- **🛠️ Modern JS Utilities**: Alpine.js for lightweight interactivity
-- **📱 Responsive Design**: Mobile-first approach with Tailwind CSS
+- **🎨 HTMX + Tailwind**: [Modern, interactive UIs](https://htmx.org) without complex client-side JavaScript
+- **🛠️ Modern JS Utilities**: [Alpine.js](https://alpinejs.dev) for lightweight interactivity
+- **📱 Responsive Design**: [Mobile-first approach](https://tailwindcss.com) with Tailwind CSS
 
 ## 🚀 Quick Start
 
