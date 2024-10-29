@@ -1,8 +1,8 @@
-FROM golang:1.22 AS builder
+FROM golang:1.23 AS builder
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y nodejs npm
+RUN apt-get update && apt-get install -y npm
 
 COPY go.mod go.sum ./
 
