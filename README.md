@@ -24,3 +24,43 @@ A modern, fully configured starter template for building fast, type-safe web app
 - npm v10.2.3
 - Air v1.61.1
 - Templ CLI v0.2.778
+
+### Installation
+
+Install dependencies:
+```bash
+npm install
+```
+
+## Running Locally
+
+Start the development server:
+```bash
+make run
+```
+
+This will:
+- Start the Templ proxy server on the value of TEMPL_PROXY_PORT defined in the .env file.
+- Start the Go server on the value of APP_PORT, also defined in the .env file.
+- Enable hot reloading for all file changes.
+
+Access the application at: http://localhost:<TEMPL_PROXY_PORT>
+
+## Running as Container
+
+1. Build the container:
+```bash
+docker build -t <image-tag> .
+```
+
+2. Run the container:
+```bash
+docker run --rm \
+  --env-file .env \
+  -p <local-port>:<app-port> \
+  -t <image-tag>
+```
+
+Access the containerized application at: http://localhost:<local-port>
+
+Note: The `<app-port>` should match the `APP_PORT` in your `.env` file.
