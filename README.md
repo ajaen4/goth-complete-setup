@@ -1,4 +1,4 @@
-# 🚀 GOTH + Templ Stack Complete Setup
+# 🚀 GOTH Stack Complete Setup
 
 [![Go Version](https://img.shields.io/badge/Go-1.23.2-00ADD8?style=flat-square&logo=go)](https://golang.org/doc/go1.23)
 [![HTMX](https://img.shields.io/badge/HTMX-1.9.11-purple?style=flat-square)](https://htmx.org)
@@ -32,7 +32,7 @@ Install dependencies:
 npm install
 ```
 
-## Running Locally
+### Running Locally
 
 Start the development server:
 ```bash
@@ -44,9 +44,12 @@ This will:
 - Start the Go server on the value of APP_PORT, also defined in the .env file.
 - Enable hot reloading for all file changes.
 
-Access the application at: http://localhost:<TEMPL_PROXY_PORT>
+Access the application at: 
+```bash
+http://localhost:<TEMPL_PROXY_PORT>
+```
 
-## Running as Container
+### Running as Container
 
 1. Build the container:
 ```bash
@@ -61,6 +64,13 @@ docker run --rm \
   -t <image-tag>
 ```
 
-Access the containerized application at: http://localhost:<local-port>
+Access the containerized application at:
+```bash
+http://localhost:<local-port>
+```
 
 Note: The `<app-port>` should match the `APP_PORT` in your `.env` file.
+
+## In detail explanation
+
+There is an in detail explanation of how the hot reloading works in this article.
