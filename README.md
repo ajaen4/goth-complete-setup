@@ -73,4 +73,4 @@ Note: The `<app-port>` should match the `APP_PORT` in your `.env` file.
 
 ## In detail explanation
 
-There is an in detail explanation of how the hot reloading works in this article.
+There is an in detail explanation of how the hot reloading works in [this](https://medium.com/ostinato-rigore/go-htmx-templ-tailwind-complete-project-setup-hot-reloading-2ca1ba6c28be) article.
