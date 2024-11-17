@@ -21,7 +21,8 @@ A modern, fully configured starter template for building fast, type-safe web app
 ### Prerequisites
 
 - Go v1.23.2 or higher
-- npm v10.2.3
+- npm v10.9.0
+- node v23.2.0
 - Air v1.61.1
 - Templ CLI v0.2.778
 
