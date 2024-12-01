@@ -4,11 +4,11 @@ tmp_dir = "bin"
 [build]
   args_bin = []
   bin = "./bin/main"
-  cmd = "make notify-templ-proxy && npm run build && go build -tags local -o ./bin/main cmd/main/main.go"
+  cmd = "npm run build && go build -tags local -o ./bin/main cmd/main/main.go"
   delay = 1000
   exclude_dir = ["tmp", "bin"]
   exclude_file = []
-  exclude_regex = [".*\\.templ$"]
+  exclude_regex = [".*\\.templ$", ".*_templ\\.go$", ".*\\.txt$"]
   exclude_unchanged = false
   follow_symlink = false
   full_bin = ""
